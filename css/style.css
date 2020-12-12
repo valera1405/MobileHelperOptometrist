@@ -1,3 +1,6 @@
+
+
+
 body {
     padding: 0;
     margin: 0;
@@ -193,7 +196,7 @@ label {
 
 /* новый тест */.stroka-01 label, .stroka-02 label, .stroka-03 label, .stroka-04 label,
 .stroka-05 label, .stroka-06 label, .stroka-07 label, .stroka-08 label, .stroka-09 label,
-.stroka-10 label {
+.stroka-10 label, .stroka-15 label, .stroka-20 label {
     margin-right: 10px;
 
 }
