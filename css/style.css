@@ -187,6 +187,17 @@ label {
         margin-right: 20px;
 }
 
+
+
+#own:not(:checked) ~ #own-size { display: none }
+
+/* новый тест */.stroka-01 label, .stroka-02 label, .stroka-03 label, .stroka-04 label,
+.stroka-05 label, .stroka-06 label, .stroka-07 label, .stroka-08 label, .stroka-09 label,
+.stroka-10 label {
+    margin-right: 10px;
+
+}
+
 /* test-test.html */
 
 #stroka-01-sh, #stroka-01-b,
