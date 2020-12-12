@@ -1,6 +1,6 @@
 
 var Stroka01_sh = document.getElementById("stroka-01-sh");
-var Stroka01_b = document.getElementById("stroka-01-b");
+var PrStroka01_sh = ['Ш'];
 
 var el_down = document.getElementById("GFG_DOW");
 
@@ -22,4 +22,9 @@ function gfg_Run()
   }
   el_down.innerHTML = res;
   }
+
+
+var stroka01 = [];
+stroka01[0] = 'Ш';
+stroka01[1] = 'Б';
 
