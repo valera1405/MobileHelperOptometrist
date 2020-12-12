@@ -186,3 +186,25 @@ label {
 .test-btn-see-on, .test-btn-restart, .test-btn-restart-question {
         margin-right: 20px;
 }
+
+/* test-test.html */
+
+#stroka-01-sh, #stroka-01-b,
+#stroka-02-m, #stroka-02-n, #stroka-02-k,
+#stroka-03-y,#stroka-03-m, #stroka-03-b, #stroka-03-sh,
+#stroka-04-b, #stroka-04-y, #stroka-04-n, #stroka-04-k, #stroka-04-m,
+#stroka-05-i, #stroka-05-n, #stroka-05-sh, #stroka-05-m, #stroka-05-k,
+#stroka-06-n, #stroka-06-sh, #stroka-06-y, #stroka-06-i, #stroka-06-k, #stroka-06-b,
+#stroka-07-sh, #stroka-07-i, #stroka-07-n, #stroka-07-b, #stroka-07-k, #stroka-07-y,
+#stroka-08-k,#stroka-08-n, #stroka-08-sh, #stroka-08-m, #stroka-08-y, #stroka-08-b, #stroka-08-i,
+#stroka-09-b, #stroka-09-k, #stroka-09-sh, #stroka-09-m, #stroka-09-i, #stroka-09-y, #stroka-09-n,
+#stroka-10-n, #stroka-10-k, #stroka-10-i, #stroka-10-b, #stroka-10-m, #stroka-10-sh, #stroka-10-y, #stroka-10-b,
+#stroka-15-sh, #stroka-15-i, #stroka-15-n, #stroka-15-k, #stroka-15-m, #stroka-15-m, #stroka-15-i, #stroka-15-y, #stroka-15-b,
+#stroka-20-i, #stroka-20-m, #stroka-20-sh, #stroka-20-i, #stroka-20-n, #stroka-20-b, #stroka-20-m, #stroka-20-k {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    text-align:center;
+}
