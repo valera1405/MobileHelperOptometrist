@@ -216,7 +216,7 @@ label {
 #stroka-08-k,#stroka-08-n, #stroka-08-sh, #stroka-08-m, #stroka-08-y, #stroka-08-b, #stroka-08-i,
 #stroka-09-b, #stroka-09-k, #stroka-09-sh, #stroka-09-m, #stroka-09-i, #stroka-09-y, #stroka-09-n,
 #stroka-10-n, #stroka-10-k, #stroka-10-i, #stroka-10-b, #stroka-10-m, #stroka-10-sh, #stroka-10-y, #stroka-10-b,
-#stroka-15-sh, #stroka-15-i, #stroka-15-n, #stroka-15-k, #stroka-15-m, #stroka-15-m, #stroka-15-i, #stroka-15-y, #stroka-15-b,
+#stroka-15-sh, #stroka-15-i, #stroka-15-n, #stroka-15-k, #stroka-15-m, #stroka-15-i, #stroka-15-y, #stroka-15-b,
 #stroka-20-i, #stroka-20-m, #stroka-20-sh, #stroka-20-i, #stroka-20-n, #stroka-20-b, #stroka-20-m, #stroka-20-k {
     width: 24px;
     height: 24px;
@@ -228,7 +228,23 @@ label {
 
 
 /* SPOILER*/
-.spoiler-title-01, .spoiler-title-02, .spoiler-title-03, .spoiler-title-04, .spoiler-title-05, .spoiler-title-06, .spoiler-title-07, .spoiler-title-08, .spoiler-title-09, .spoiler-title-10, .spoiler-title-15, .spoiler-title-20{cursor:pointer;}
-.spoiler-body-01, .spoiler-body-02, .spoiler-body-03, .spoiler-body-04, .spoiler-body-05, .spoiler-body-06, .spoiler-body-07, .spoiler-body-08, .spoiler-body-09, .spoiler-body-10, .spoiler-body-15, .spoiler-body-20 {display:none;background:#f1f1f1;}
-.opened {color:green;}
-.closed {color:blue;}
+.spoiler-title-01, .spoiler-title-02, .spoiler-title-03, .spoiler-title-04, 
+.spoiler-title-05, .spoiler-title-06, .spoiler-title-07, .spoiler-title-08, 
+.spoiler-title-09, .spoiler-title-10, .spoiler-title-15, .spoiler-title-20 {
+    cursor:pointer;
+}
+
+.spoiler-body-01, .spoiler-body-02, .spoiler-body-03, .spoiler-body-04, 
+.spoiler-body-05, .spoiler-body-06, .spoiler-body-07, .spoiler-body-08, 
+.spoiler-body-09, .spoiler-body-10, .spoiler-body-15, .spoiler-body-20 {
+    display:none;
+    background:#f1f1f1;
+}
+
+.opened {
+    color:green;
+}
+
+.closed {
+    color:blue;
+}
