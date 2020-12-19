@@ -1,0 +1,46 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOILER</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+    <h3>Способ 3</h3>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.spoiler-body3').hide();
+        $('.spoiler-title3').click(function(){
+            $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
+            if($(this).hasClass('opened')) {
+                $(this).html('Скрыть текст');
+            }
+            else {
+                $(this).html('Показать текст');
+            }
+        });
+        });
+        </script>
+        
+Спойлер 
+<b class="spoiler-title3 opened">Скрыть текст</b>
+
+<div class="spoiler-body3" style="display: block;">
+    Нельзя добавлять комментарии, которые:
+    <ul>
+    <li>Не относятся к тематике сайта и самой записи</li>
+    <li>Содержат в тексте исключительно заглавные буквы</li>
+    <li>Содержат нецензурные слова, идиоматические выражения, призывы к межнациональной и межконфессиональной розни</li>
+    <li>Содержат обсуждения наркотических веществ и способов их применения</li>
+    <li>Содержат не нормированное количество знаков препинания и смайликов</li>
+    <li>Содержат постоянные обращения к конкретным участникам по личным вопросам</li>
+    <li>Содержат ссылки на сторонние ресурсы</li>
+    <li>Содержат призывы к нарушению действующего законодательства (Уголовного и Административного кодекса)</li>
+    <li>Содержат реплики оскорбляющие других участников проекта</li>
+    </ul>
+    </div>
+</body>
+</html>

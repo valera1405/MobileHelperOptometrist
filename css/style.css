@@ -132,7 +132,7 @@ header a {
 }
 
 .edit:hover {
-    background: #0043A4;
+    background: #0043a4;
     transition: background 0.5s ease;
 }
 
@@ -193,6 +193,9 @@ label {
 
 
 #own:not(:checked) ~ #own-size { display: none }
+.custom-control {
+    margin-top: 10px;
+}
 
 /* новый тест */.stroka-01 label, .stroka-02 label, .stroka-03 label, .stroka-04 label,
 .stroka-05 label, .stroka-06 label, .stroka-07 label, .stroka-08 label, .stroka-09 label,
@@ -222,3 +225,10 @@ label {
     font-size: 18px;
     text-align:center;
 }
+
+
+/* SPOILER*/
+.spoiler-title-01, .spoiler-title-02, .spoiler-title-03, .spoiler-title-04, .spoiler-title-05, .spoiler-title-06, .spoiler-title-07, .spoiler-title-08, .spoiler-title-09, .spoiler-title-10, .spoiler-title-15, .spoiler-title-20{cursor:pointer;}
+.spoiler-body-01, .spoiler-body-02, .spoiler-body-03, .spoiler-body-04, .spoiler-body-05, .spoiler-body-06, .spoiler-body-07, .spoiler-body-08, .spoiler-body-09, .spoiler-body-10, .spoiler-body-15, .spoiler-body-20 {display:none;background:#f1f1f1;}
+.opened {color:green;}
+.closed {color:blue;}
