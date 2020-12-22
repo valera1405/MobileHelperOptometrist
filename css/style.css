@@ -183,11 +183,13 @@ label {
 }
 
 .test-btn {
-    display: flex;
+display: block;
 }
 
 .test-btn-see-on, .test-btn-restart, .test-btn-restart-question {
         margin-right: 20px;
+        margin-bottom: 30px;
+        
 }
 
 
@@ -200,8 +202,7 @@ label {
 /* новый тест */.stroka-01 label, .stroka-02 label, .stroka-03 label, .stroka-04 label,
 .stroka-05 label, .stroka-06 label, .stroka-07 label, .stroka-08 label, .stroka-09 label,
 .stroka-10 label, .stroka-15 label, .stroka-20 label {
-    margin-right: 10px;
-
+    padding-top: 10px;
 }
 
 /* test-test.html */
@@ -220,10 +221,10 @@ label {
 #stroka-20-i, #stroka-20-m, #stroka-20-sh, #stroka-20-i, #stroka-20-n, #stroka-20-b, #stroka-20-m, #stroka-20-k {
     width: 24px;
     height: 24px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin: 10px;
     font-size: 18px;
     text-align:center;
+    border:1px solid #47515e;
 }
 
 
@@ -232,13 +233,15 @@ label {
 .spoiler-title-05, .spoiler-title-06, .spoiler-title-07, .spoiler-title-08, 
 .spoiler-title-09, .spoiler-title-10, .spoiler-title-15, .spoiler-title-20 {
     cursor:pointer;
+    margin-bottom: 10px; 
 }
 
 .spoiler-body-01, .spoiler-body-02, .spoiler-body-03, .spoiler-body-04, 
 .spoiler-body-05, .spoiler-body-06, .spoiler-body-07, .spoiler-body-08, 
 .spoiler-body-09, .spoiler-body-10, .spoiler-body-15, .spoiler-body-20 {
     display:none;
-    background:#f1f1f1;
+    border-top: 1px solid rgb(172, 172, 172);
+    margin-top: 10px;
 }
 
 .opened {
