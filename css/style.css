@@ -66,14 +66,14 @@ header a {
 .nav {
     display: flex;
     align-items: center;
-    background-color: #0260E8;
+    background-color: #274B9F;
 }
 
 .btn {
     text-decoration: none;
     width: 200px;
     height: 500px;
-    background-color: #0260E8;
+    background-color: #274B9F;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
@@ -82,7 +82,7 @@ header a {
 }
 
 .btn:hover {
-    background-color: #0043A4;
+    background-color: #274B9F;
     transition: background-color 0.5s ease;
 }
 
@@ -95,7 +95,7 @@ header a {
 
 .ul-home-link a{
     text-decoration: none;
-    color: #395778;
+    color: #274B9F;
 }
 
 .ul-home-link a:hover {
@@ -120,7 +120,7 @@ header a {
 }
 
 .edit {
-    background: #0260E8;
+    background: #274B9F;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
@@ -153,7 +153,7 @@ header a {
 }
 
 #first-name:focus, #last-name:focus, #date:focus, #tel:focus, #vvod-bukv:focus {
-    border: 2px solid #0260E8;
+    border: 2px solid #274B9F;
     width: 250px;
     height: 24px;
     margin-top: 5px;
@@ -245,9 +245,9 @@ display: block;
 }
 
 .opened {
-    color:green;
+    color:#3D8E3D;
 }
 
 .closed {
-    color:blue;
+    color:#274B9F;
 }
