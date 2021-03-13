@@ -1,21 +1,11 @@
 let data = {
   "tales": [
-      {"letter": "ш"}, // [0]
-      
-      {"letter": "б"},            // [1]
-      
-      {"letter": "Крюкова"},               // [2]
+      {"letter": "ш"},     
+      {"letter": "б"}
+
       
   ]
 };
-
-// Шаблон одного блока сказки в формате HTML
-let element_template = `<div id="tale-{i}" class="tale-block">
-                          <p class="tale-title">{title}</p>
-                          <p> Фамилия автора: <br>
-                              <input id="input-{i}" class="tale-author" type="text" size="40">
-                          </p>
-                      </div>`
 
 
 // функция обработчика ввода в поле
