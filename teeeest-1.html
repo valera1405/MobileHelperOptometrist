@@ -4,7 +4,7 @@
     <title>Заполнение страницы из списка по шаблону</title>
     <style>
         body {
-            width: 2em;
+            width: 35em;
             margin: 0 auto;
             font-family: Tahoma, Verdana, Arial, sans-serif;
         }
@@ -13,6 +13,11 @@
             padding: 1rem;
             background-color: ghostwhite;
             border: 1px solid slategrey;
+        }
+
+        .tale-title {
+            font-size: larger;
+            font-weight: 500;
         }
         
         .tale-author {
@@ -36,7 +41,12 @@
         //                    author - фамилия автора, с ним мы будем сверять пользовательский ввод
         let data = {
             "tales": [
-                {"title": "Сказка о рыбаке и рыбке", "author": "Пушкин"}, {"title": "Дюймовочка", "author": "Андерсен"}, {"title": "Гордячка", "author": "Крюкова"},            
+                {"title": "Сказка о рыбаке и рыбке", "author": "Пушкин"}, // [0]
+                
+                {"title": "Дюймовочка", "author": "Андерсен"},            // [1]
+                
+                {"title": "Гордячка", "author": "Крюкова"},               // [2]
+                
             ]
         };
 
